@@ -1,0 +1,62 @@
+[30/May/2024 02:04:11 America/Detroit] [Info] ############################################################
+[30/May/2024 02:04:11 America/Detroit] [Info] # Output Factory initiated (html5)
+[30/May/2024 02:04:11 America/Detroit] [Info] # Building output for: o9 Solutions Documentation
+[30/May/2024 02:04:11 America/Detroit] [Info] # URL /document/edit/421469
+[30/May/2024 02:04:11 America/Detroit] [Info] # User: Amit Verma
+[30/May/2024 02:04:11 America/Detroit] [Info] # Time: Thu, 30 May 2024 02:04:11 -0400
+[30/May/2024 02:04:11 America/Detroit] [Info] # Server: dresden
+[30/May/2024 02:04:11 America/Detroit] [Info] ############################################################
+[30/May/2024 02:04:11 America/Detroit] [Info] Group: custom
+[30/May/2024 02:04:11 America/Detroit] [Info] Type: html5
+[30/May/2024 02:04:11 America/Detroit] [Info] Transformation: $user_dir/xsl/custom/layout-13295.xsl
+[30/May/2024 02:04:11 America/Detroit] [Info] File found: $user_dir/xsl/custom/layout-13295.xsl
+[30/May/2024 02:04:11 America/Detroit] [Info] ############################################################
+[30/May/2024 02:04:11 America/Detroit] [Info] Building output for: html5
+[30/May/2024 02:04:11 America/Detroit] [Info] Using stylesheet: $user_dir/xsl/custom/layout-13295.xsl
+[30/May/2024 02:04:11 America/Detroit] [Info] Parameters for this build: {"profile.outputformat":"html5"}
+[30/May/2024 02:04:11 America/Detroit] [Info] Environment variables for this build: {"image.size":"1","taxonomies.propagate":"1","reused.publication.as.topic":"1"}
+[30/May/2024 02:04:11 America/Detroit] [Info] Building output for languages: ["en"]
+[30/May/2024 02:04:11 America/Detroit] [Info] Building multilang: no
+[30/May/2024 02:04:11 America/Detroit] [Info] Building preview: no
+[30/May/2024 02:04:11 America/Detroit] [Info] ############################################################
+[30/May/2024 02:04:11 America/Detroit] [Info] Using build directory: $local_tmp/production-665816da199ef5.49585690/421469-o9_Solutions_Documentation-html5
+[30/May/2024 02:04:12 America/Detroit] [Info] -- Generating source files
+[30/May/2024 02:04:12 America/Detroit] [Info] -- Propagating taxonomies: true
+[30/May/2024 02:04:13 America/Detroit] [Info] -- Source files have been generated
+[30/May/2024 02:04:13 America/Detroit] [Info] -- Publication has no unresolved dependencies.
+[30/May/2024 02:04:13 America/Detroit] [Info] Parsing processing instructions
+[30/May/2024 02:04:13 America/Detroit] [Info] -- Generating source files complete.
+[30/May/2024 02:04:14 America/Detroit] [Info] Localizing: publication-421469.xml
+[30/May/2024 02:04:14 America/Detroit] [Info] Language: en
+[30/May/2024 02:04:14 America/Detroit] [Info] Variable sets found: 0
+[30/May/2024 02:04:15 America/Detroit] [Info] Inserting image links.
+[30/May/2024 02:04:15 America/Detroit] [Info] Found 0 image(s).
+[30/May/2024 02:04:16 America/Detroit] [Info] Profiling parameters: {"profile.outputformat":"html5"}
+[30/May/2024 02:04:16 America/Detroit] [Info] Profiling customisation: $user_dir/xsl/profile.xsl (not found)
+[30/May/2024 02:04:16 America/Detroit] [Info] Transformation: publication-421469--en.org.xml -> publication-421469--en.xml [profile.xsl]
+[30/May/2024 02:04:16 America/Detroit] [Info] Transformation: publication-421469--en.xml -> publication-421469--en.xml [internal-xref.xsl]
+[30/May/2024 02:04:17 America/Detroit] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
+[30/May/2024 02:04:17 America/Detroit] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
+[30/May/2024 02:04:17 America/Detroit] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
+[30/May/2024 02:04:17 America/Detroit] [Info] Created copy: $user_dir/xsl/custom/layout-13295.xsl -> $user_dir/xsl/custom/665816e1681b5.xsl
+[30/May/2024 02:04:17 America/Detroit] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.page.xsl -> $user_dir/xsl/custom/665816e1681b5.page.xsl
+[30/May/2024 02:04:17 America/Detroit] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5-2.index.xsl -> $user_dir/xsl/custom/665816e1681b5.index.xsl
+[30/May/2024 02:04:17 America/Detroit] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.toc.xsl -> $user_dir/xsl/custom/665816e1681b5.toc.xsl
+[30/May/2024 02:04:17 America/Detroit] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.page.xsl -> $user_dir/xsl/custom/665816e1681b5.page.xsl
+[30/May/2024 02:04:17 America/Detroit] [Info] Created symlink: $apppath/lib/docbook/xsl/html5/html5.index.xsl -> $user_dir/xsl/custom/665816e1681b5.index.xsl
+[30-May-2024 02:04:18 America/Detroit] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*, js/swagger/*
+[30-May-2024 02:04:18 America/Detroit] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
+[30-May-2024 02:04:18 America/Detroit] Copy file '$user_dir/xsl/custom/assets/layout-13295/65641d2293098.jpg' to '$local_tmp/production-665816da199ef5.49585690/421469-o9_Solutions_Documentation-html5/out/css/image/corporate-logo.jpg'
+[30-May-2024 02:04:18 America/Detroit] Copy file '$user_dir/xsl/custom/assets/layout-13295/65641d2708241.jpg' to '$local_tmp/production-665816da199ef5.49585690/421469-o9_Solutions_Documentation-html5/out/css/image/portal-logo.jpg'
+[30-May-2024 02:04:18 America/Detroit] Copy file '$user_dir/xsl/custom/assets/layout-13295/654ca41837ea4.svg' to '$local_tmp/production-665816da199ef5.49585690/421469-o9_Solutions_Documentation-html5/out/css/image/portal-bg.svg'
+[30-May-2024 02:04:18 America/Detroit] Copy file '$user_dir/xsl/custom/assets/layout-13295/6656d98a97a7e.js' to '$local_tmp/production-665816da199ef5.49585690/421469-o9_Solutions_Documentation-html5/out/js/layout-custom-script.js'
+[30-May-2024 02:04:18 America/Detroit] Copy file '$user_dir/xsl/custom/assets/layout-13295/664326a8c27fe.ico' to '$local_tmp/production-665816da199ef5.49585690/421469-o9_Solutions_Documentation-html5/out/favicon.ico'
+[30-May-2024 02:04:19 America/Detroit] Post build HTML5
+[30/May/2024 02:04:19 America/Detroit] [Info] Transformation: index-en.html -> toc-en.html [665816e1681b5.toc.xsl]
+[30/May/2024 02:04:19 America/Detroit] [Info] Transformation: r2022-12,-r2022-09,-and-r2022-04.html -> r2022-12,-r2022-09,-and-r2022-04.html [665816e1681b5.page.xsl]
+[30/May/2024 02:04:19 America/Detroit] [Info] Transformation: r2023-07.html -> r2023-07.html [665816e1681b5.page.xsl]
+[30/May/2024 02:04:19 America/Detroit] [Info] Transformation: previous-releases.html -> previous-releases.html [665816e1681b5.page.xsl]
+[30/May/2024 02:04:19 America/Detroit] [Info] Transformation: index-en.html -> index-en.html [665816e1681b5.page.xsl]
+[30/May/2024 02:04:20 America/Detroit] [Info] Generating index page.
+[30/May/2024 02:04:20 America/Detroit] [Info] Transformation: index.manifest -> index.html [665816e1681b5.index.xsl]
+[30/May/2024 02:04:20 America/Detroit] [Info] # Took 9.584088 seconds to render.

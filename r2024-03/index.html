@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1" />
+    <link rel="stylesheet" href="Style.css?v=2.0">
+    <link rel="stylesheet" href="xmlstyle.css?v=2.0">
+    <title>o9 Solutions - Product Documentation</title>
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="css/font-awesome.min.css" rel="stylesheet"></link>
+    <link href="css/roboto.font.min.css" rel="stylesheet"></link>
+    <link href="css/sm-core-css.min.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/sm-simple.min.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/theme2.min.css?version=20240321" rel="stylesheet"></link>
+    <link href="css/theme2-colors.min.css?version=20240321" rel="stylesheet"></link>
+    <link href="css/content-theme2.min.css?version=20240321" rel="stylesheet"></link> -->
+    <!-- <link href="css/65af59d0e2bd4.css" rel="stylesheet"></link> -->
+    <style>
+        .portal-header::after {
+            background: url(css/image/portal-bg.svg) no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/googlecode.min.css"></link>
+    <script src="js/jquery-3/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.smartmenus.min.js" type="text/javascript"></script>
+    <script src="js/html5-2-mp-common.min.js?version=20240321"></script>
+    <script src="js/html5-2.min.js?version=20240321"></script>
+    <script type="text/javascript" class="before-bundle">
+        //TODO: Used to modify path for portal search. Change to get dynamically
+        var portalLanguage = 'en';
+        var languageTitleMap = { "en": "o9 Solutions Documentation" };
+        var categoriesShown = 1000;
+        var shown = 4;
+
+        var versionsfile = '';
+
+        var indexDict = new Array();
+        var store = {
+        };
+        var enterKey = 'select';
+        var fuse_threshold = 0.3;
+        var instantsearch_minlength = 1;
+    </script>
+    <script src="js/fuse.min.js" type="text/javascript">
+    </script>
+    <script src="js/html5.fuse.search.js?version=20240429" type="text/javascript"></script>
+    <script class="search-script" src="en/js/fuzzydata.js" type="text/javascript"></script>
+    <script src="js/html5-2-portal.js"></script>
+    <script src="js/jquery.mark.min.js" type="text/javascript"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SGF5HL4XB4"></script>
+    <script type="text/javascript">
+        const measurementId = 'G-SGF5HL4XB4';
+
+        $(document).on('cookies.consented', () => {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments) };
+
+            gtag('js', new Date());
+            gtag('config', measurementId);
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".mediaobject img").addClass('materialboxed');
+            //Exclude images with links
+            $(".mediaobject a img").removeClass('materialboxed');
+            if (!document.documentMode) {
+                $('.materialboxed').materialbox();
+            }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('pre:not(.embedcode)').each(function () {
+                /**
+                 * @type {string}
+                 */
+                var language = $(this).data('language');
+
+                if (language === 'plaintext' || language === 'text') {
+                    $(this).addClass(language).addClass('hljs');
+                    return true;
+                }
+                else {
+                    var clone = this.cloneNode(true);
+                    hljs.highlightBlock(clone);
+                    $(this).empty().append($(clone).contents());
+                    $(this).attr("class", $(clone).attr("class"));
+                }
+            });
+        });
+    </script>
+    <script type="text/javascript" src="js/cookie-consent.min.js"></script>
+    <script src="js/layout-custom-script.js?version=2.0" type="text/javascript"></script>
+    <script src="js/user-custom-script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="selected-version">
+        <div class="container-64">
+            <div class="container-46">
+                <div class="logo-black-on-white">
+                    <a class="navbar-brand" href="https://o9solutions.com/" target="_blank" rel="noopener"><img class="o-9-logo" src="css/image/corporate-logo1.jpg" alt="logo" /></a>
+                </div>
+                <div class="navbar">
+                    <div class="home-37">
+                        <a href="../r2024-03/index.html" class="header-item" target="_self">Home</a>
+                    </div>
+                    <div class="support">
+                        <a href="https://o9solutions.seismic.com/app" class="header-item" target="_blank">Sales&amp;Marketing</a>
+                    </div>
+                    <div class="academy-31">
+                        <a href="https://o9ers-o9academy.talentlms.com/plus/dashboard" class="header-item" target="_blank">Academy</a>
+                    </div>
+                    <div class="community">
+                        <a href="https://community.o9solutions.com/" class="header-item" target="_blank">Community</a>
+                    </div>
+                    <div class="support">
+                        <a href="https://support.o9solutions.com/" class="header-item" target="_blank">Support</a>
+                    </div>
+                    <div class="platform-documentation">
+                        <a href="https://platformwiki.o9solutions.com/index.php/Platform_Wiki_-_Table_of_Contents" class="header-item" target="_blank">Platform Docs</a>
+                    </div>
+                    <div class="platform-documentation">
+                        <a href="https://sites.google.com/o9solutions.com/industrysolutions/releases/release-r2024-03" class="header-item" target="_blank">PMM Release</a>
+                    </div>
+                    <div class="platform-documentation">
+                        <a href="https://sites.google.com/o9solutions.com/idb-knowledge-portal/home" class="header-item" target="_blank">IDB Portal</a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <img class="container" /> -->
+        </div>
+        <div class="fixeddiv">
+            <div class="container-70">
+
+                <div class="welcome-to-o-9-product-documentation">
+                    Welcome to o9 Product Documentation
+                </div>
+
+                <div class="parent_of_drop_down_and_release_notes">
+                    <div class="parent_of_drowdown">
+                        <div class="frame-11">
+                            <!-- onclick="hidedropdown(true)" -->
+                            <a class="release-version-122023">
+                                Release Version 2024.03
+                                <span class="sub-arrow"></span>
+                                <span class="caret"></span>
+                            </a>
+
+                            <div class="dropdown-menu">
+                                <a class="child-of-dd" href="../r2023-12/index.html" target="_self">Release 2023.12</a>
+                                <a class="child-of-dd" href="../r2023-07/index.html" target="_self">Release 2023.07</a>
+                            </div>
+                        </div>
+                        <div class="container-71">
+                            <form class="portal-search form-inline" autocomplete="off">
+                                <input type="search" placeholder="Type to search..." aria-label="Search" class="portal-search-field form-control search-field" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="parent_of_empty_div">
+                        <div class="empty_div">
+                        </div>
+                        <div class="parent_of_release_notes_first">
+                            <a href="/r2024-03/en/r2024-03-release-notes/release-notes.html" class="container-55">
+                                <div class="adobe-stock-3165583922">
+                                    <img src="image/product_release_notes.png" alt="">
+                                </div>
+                                <div class="product-release-notes">
+                                    Product Release Notes
+                                </div>
+                            </a>
+                            <a href="/r2024-03/en/ui-navigation-tour.html" class="container-55">
+                                <div class="adobe-stock-3165583922">
+                                    <img src="image/o9_interface.png" alt="">
+                                </div>
+                                <div class="product-release-notes">
+                                    o9 UI Interface
+                                </div>
+                            </a>
+                            <a href="https://sites.google.com/o9solutions.com/idb-knowledge-portal/industry-digital-brain/knowledge-videos" class="container-55" target="_blank">
+                                <div class="adobe-stock-3165583922">
+                                    <img src="image/Knowledge_videos.png" alt="">
+                                </div>
+                                <div class="product-release-notes">
+                                    Knowledge Videos
+                                </div>
+                            </a>
+                            <a href="https://documents.o9solutions.com/assets/wip/bmc-overview.pdf?v=1.1" class="container-55" target="_blank">
+                                <div class="adobe-stock-3165583922">
+                                    <img src="image/Business_model.png" alt="">
+                                </div>
+                                <div class="product-release-notes">
+                                    Business Model Characteristics Overview
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-62">
+                <div class="container-60">
+                    <div class="container-51">
+                        <div class="solution-areas">
+                            Solution Areas
+                        </div>
+                        <div class="container-67">
+                            <div class="rectangle-42">
+                            </div>
+                            <span class="all-solutions">
+                                All Solutions
+                            </span>
+                        </div>
+                        <!-- <div type="checkbox" class="container-63">
+                          <div  class="rectangle-41">
+                          </div>
+                          <span class="data-integration">
+                            Data Integration
+                          </span>
+
+                        </div> -->
+                        <div type="checkbox" class="container-40">
+                            <div class="rectangle-43">
+                            </div>
+                            <span class="demand-planning">
+                                Demand Planning
+                            </span>
+                        </div>
+
+                        <div type="checkbox" class="container-56">
+                            <div class="rectangle-45">
+                            </div>
+                            <span class="supply-planning">
+                                Supply Planning
+                            </span>
+
+                        </div>
+                        <div type="checkbox" class="container-63">
+                            <div class="rectangle-41">
+                            </div>
+                            <span class="data-integration">
+                                Data Integration
+                            </span>
+
+                        </div>
+
+                        <div type="checkbox" class="containerEKG">
+                            <div class="rectangleEKG">
+                            </div>
+                            <span class="EKG">
+                                EKG Configurator
+                            </span>
+
+                        </div>
+
+
+                        <div type="checkbox" class="container-42">
+                            <div class="rectangle-44">
+                            </div>
+                            <div class="knowledge-hub">
+                                Knowledge Hub
+                            </div>
+
+                        </div>
+                        <div type="checkbox" class="container-54">
+                            <div class="rectangle-40">
+                            </div>
+                            <span class="sustainability-solutions">
+                                Sustainability Solutions
+                            </span>
+
+                        </div>
+                        <div type="checkbox" class="container-38">
+                            <div class="rectangle-46">
+                            </div>
+                            <span class="production-scheduling">
+                                Production Scheduling
+                            </span>
+
+                        </div>
+                        <div type="checkbox" class="container-49">
+                            <div class="rectangle-47">
+                            </div>
+                            <span class="next-generation-procurement">
+                                Next Generation Procurement
+                            </span>
+
+                        </div>
+                        <div type="checkbox" class="container-58">
+                            <div class="rectangle-48">
+                            </div>
+                            <span class="retail">
+                                Retail
+                            </span>
+
+                        </div>
+                        <div type="checkbox" class="container-52">
+                            <div class="rectangle-49">
+                            </div>
+                            <span class="analytics">
+                                Analytics
+                            </span>
+
+                        </div>
+
+                        <div type="checkbox" class="containerother">
+                            <div class="rectangleother">
+                            </div>
+                            <span class="others">
+                                Others
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="parent-of-release-notes">
+
+
+                    <div class="Portal-body-container">
+                        <div class="contentofallsolution">
+                            <!-- id="allsol" -->
+                            <div id="allsolutionContent">
+                            </div>
+                            <div id="demandplanningcontent">
+                            </div>
+                            <div id="supplyPlanningContent">
+                            </div>
+                            <div id="dataIntegrationContent">
+                            </div>
+                            <div id="EKGContent">
+                            </div>
+                            <div id="knowledgehubcontent">
+                            </div>
+                            <div id="sustainabilitysolutioncontent">
+                            </div>
+                            <div id="productionschedulingcontent">
+                            </div>
+                            <div id="nextgenrationcontent">
+                            </div>
+                            <div id="retailscontent">
+                            </div>
+                            <div id="analyticscontent">
+                            </div>
+                            <div id="otherscontent">
+                            </div>
+                        </div>
+                        <div class="content-wrapper portal-search-result " id="contwrap">
+                            <div class="search-container">
+                                <h2 style="color: white;">Search results</h2>
+                                <ul class="searchresults">
+                                </ul>
+                                <p class="noresults">No results found</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="portal-footer">
+        <div class="inner row">
+            <div class="copyright col-md-3"> © 2024 o9 Solutions, Inc. </div>
+            <div class="dropup languages pull-right col-md-2">
+                <button data-toggle="dropdown" class="dropdown-toggle btn btn-default" aria-expanded="false">
+                    English
+                    <b class="caret">
+
+                    </b>
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="language-item dropdown-item active" lang="en">
+                            English
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js?version=2.0">
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</body>
+</html>
+

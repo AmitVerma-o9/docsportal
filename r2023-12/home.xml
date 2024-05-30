@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<parent>
+	<demandPlanning>
+		<guide>
+			<parent>Demand Planning</parent>
+			<name>Tenant and Enhancement Setup Guide</name>
+			<image>/r2023-12/image/demand_planning.png</image>
+			<link>/r2023-12/en/7540-411627-demand-planning-tenant-and-enhancement-setup-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Demand Planning</parent>
+			<name>Product Guide</name>
+			<image>/r2023-12/image/demand_planning.png</image>
+			<link>/r2023-12/en/7540-413707-dp-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Demand Planning</parent>
+			<name>Integrated Business Planning Guide</name>
+			<image>/r2023-12/image/demand_planning.png</image>
+			<link>/r2023-12/en/7540-408937-demand-planning-integrated-business-planning-enhancement-details-document.html</link>
+		</guide>
+		<guide>
+			<parent>Demand Planning</parent>
+			<name>Workspace: Demand Planner Guide</name>
+			<image>/r2023-12/image/demand_planning.png</image>
+			<link>/r2023-12/en/7540-365282-workspace--demand-planner.html</link>
+		</guide>
+	</demandPlanning>
+	<supplyplanning>
+		<guide>
+			<parent>Supply Planning</parent>
+			<name>Product Guide</name>
+			<image>/r2023-12/image/Supply Chain Master Planning.png</image>
+			<link>/r2023-12/en/7540-329916-supply-planning-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Supply Planning</parent>
+			<name>Nexprime Product Guide</name>
+			<image>/r2023-12/image/Supply Chain Master Planning.png</image>
+			<link>/r2023-12/en/7540-377719-nexprime-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Supply Planning</parent>
+			<name>Workspace:Supply Master Planner Guide</name>
+			<image>/r2023-12/image/Supply Chain Master Planning.png</image>
+			<link>/r2023-12/en/7540-400082-workspace--supply-master-planner.html</link>
+		</guide>
+	</supplyplanning>
+	<dataIntegration>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Getting Started Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-329832-di-getting-started.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Software Installation Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-276511-software-installation-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>DB Designer Product Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-272973-dbdesigner-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Batch Orchestrator Product Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-278241-batch-orchestrator-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Adaptor for SAP Product Overview Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-379163-adaptor-for-sap-product-overview.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>SAP Transport Package Deployment Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-232904-sap-transport-package-deployment-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>MSD365 (F&amp;O) Product Overview Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-258467-msd365--f-o--product-overview.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Outbound Integration Framework Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-275889-outbound-integration-framework-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Handbook Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-329844-di-handbook.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Workspace Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-277416-workspaces-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>Calendar Generator User Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-272880-calendar-generator-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>MS D365 F&amp;O Asynchronos Mode Configuration Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-257921-ms-d365-finance-and-operations-asynchronous-mode-configuration-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Data Integration</parent>
+			<name>MSD365 Data Import Adaptor Configuration Guide</name>
+			<image>/r2023-12/image/Data integration.png</image>
+			<link>/r2023-12/en/7540-258322-ms-d365-data-import-adaptor-configuration-guide.html</link>
+		</guide>
+	</dataIntegration>
+	<!-- <EKG>
+		<guide>
+			<parent>EKG Configurator</parent>
+			<name>EKG Configurator User Guide</name>
+			<image>/r2023-12/image/EKG.png</image>
+			<link>https://documents.o9solutions.com/r2024-03/en/ekg-configurator/ekg-configurator-user-guide.html</link>
+		</guide>	
+	</EKG> -->
+	<knowledgehub>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Commodity Price Forecasting User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-301263-commodity-price-forecasting-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Connector User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-301470-knowledge-hub-connector-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Data Explorer User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-302681-data-explorer-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Demographic Segmenation Tool User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-302816-demographic-segmentation-tool-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Earthquake Hazard Map User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-303105-earthquake-hazard-map-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Geo Routing and Emissions Estimation User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-303699-geo-routing-and-emissions-estimation-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Python Library User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-304223-python-library-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Demand Knowledge Connector User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-350322-demand-knowledge-connector-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Knowledge Hub</parent>
+			<name>Media Monitoring User Guide</name>
+			<image>/r2023-12/image/knowledgehub.png</image>
+			<link>/r2023-12/en/7540-350967-media-monitoring-user-guide.html</link>
+		</guide>
+	</knowledgehub>
+	<sustainability>
+		<guide>
+			<parent>Sustainability Solutions</parent>
+			<name>Sustainability Solutions Guide</name>
+			<image>/r2023-12/image/sustainability.png</image>
+			<link>https://sites.google.com/o9solutions.com/industrysolutions/releases/release-r2023-07#h.91i2xxb30vfp</link>
+		</guide>
+	</sustainability>
+	<productionscheduling>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>Product Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-342887-production-scheduling-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>Data Validation User Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-259812-data-validation-user-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>Optimization Objectives Table Document Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-261797-optimization-objectives-table.html</link>
+		</guide>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>MangoGem API Integration Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-260568-mangogem-api-interaction-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>RefModel to MGModel Mapping Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-262135-refmodel-to-mgmodel-mapping-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>MangoGem Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-260698-transformation-to-mangogem-model-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>Back Transformation to o9 Model Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-258577-back-transformation-to-o9-model-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Production Scheduling</parent>
+			<name>Post Processing Developer Guide</name>
+			<image>/r2023-12/image/Production scheduling.png</image>
+			<link>/r2023-12/en/7540-258860-post-processing-developer-guide.html</link>
+		</guide>
+	</productionscheduling>
+	<nextgeneration>
+		<guide>
+			<parent>Next Generation</parent>
+			<name>Next Generation Procurement Product Guide</name>
+			<image>/r2023-12/image/Next gen procurement.png</image>
+			<link>/r2023-12/en/7540-412562-next-generation-procurement-product-guide.html</link>
+		</guide>
+	</nextgeneration>
+	<retail>
+		<guide>
+			<parent>Retail</parent>
+			<name>Merchandise Financial Planning Product Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-357090-retail-merchandise-financial-planning-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Retail</parent>
+			<name>Merchandise Financial Planning Workflow Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-356903-merchandise-financial-planning-workflow-document.html</link>
+		</guide>
+		<guide>
+			<parent>Retail</parent>
+			<name>Replenishment Product Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-351904-retail-replenishment-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Retail</parent>
+			<name>Replenishment Workflow Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-351125-retail-replenishment-planning-workflow-document.html</link>
+		</guide>
+		<guide>
+			<parent>Retail</parent>
+			<name>Assortment Planning Product Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-362309-retail-assortment-planning-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Retail</parent>
+			<name>Assortment Planning Workflow Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-363768-retail-assortment-planning-workflow-document.html</link>
+		</guide>
+		<guide>
+			<parent>Retail</parent>
+			<name>Size Profiler Product Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-410830-retail-size-profiler-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Retail</parent>
+			<name>Size Profiler Workflow Guide</name>
+			<image>/r2023-12/image/Retail.png</image>
+			<link>/r2023-12/en/7540-411307-retail-size-profiler-workflow-document.html</link>
+		</guide>
+	</retail>
+	<analytics>
+		<guide>
+			<parent>Analytics</parent>
+			<name>Multi-Echelon Inventory Optimization Product Guide</name>
+			<image>/r2023-12/image/analytics.png</image>
+			<link>/r2023-12/en/7540-338874-multi-echelon-inventory-optimization-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Analytics</parent>
+			<name>Order Interval Optimization Product Guide</name>
+			<image>/r2023-12/image/analytics.png</image>
+			<link>/r2023-12/en/7540-342585-order-interval-optimization-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Analytics</parent>
+			<name>Segmentation Foundation Product Guide</name>
+			<image>/r2023-12/image/analytics.png</image>
+			<link>/r2023-12/en/7540-371975-segmentation-foundation-product-guide.html</link>
+		</guide>
+		<guide>
+			<parent>Analytics</parent>
+			<name>AI Segmentation Product Guide</name>
+			<image>/r2023-12/image/analytics.png</image>
+			<link>/r2023-12/en/7540-371445-ai-segmentation-product-guide.html</link>
+		</guide>
+	</analytics>
+	<config2>
+		<!--<guide>
+			<parent>Config 2.0</parent>
+			<name>Understanding Key Concepts and Usage</name>
+			<image>/r2023-12/image/config2.png</image>
+			<link>https://documents.o9solutions.com/r2024-03/en/config-2-0/understanding-key-concepts-and-usage-document.html</link>
+		</guide>-->
+		<guide>
+			<parent>Config 2.0</parent>
+			<name>Getting Started</name>
+			<image>/r2023-12/image/config2.png</image>
+			<link>/r2023-12/en/7540-422081-config-2-0-getting-started-guide.html</link>
+		</guide>
+	</config2>
+</parent>
